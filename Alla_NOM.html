@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://change-this-to-the-site-you-are-testing/" />
+<title>Notic meeting</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Notic meeting</td></tr>
+</thead><tbody>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='ScheduledDate']</td>
+	<td>1/5/2017</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='ScheduledTime']</td>
+	<td>8:30 AM</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='EndTime']</td>
+	<td>10:30 AM</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='Name1Key']</td>
+	<td>Sasha</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='Name2Key']</td>
+	<td>Sasha</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='PhoneNumber1Key']</td>
+	<td>(111) 444-3330</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='PhoneNumber2Key']</td>
+	<td>(111) 444-5550</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form[@id='frmFormDetails']/div/div[2]/div[3]/div[2]/div[2]/div/div/span/div[6]/label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form[@id='frmFormDetails']/div/div[2]/div[3]/div[3]/table/tbody/tr/td[2]/div/div/span/span/span/span[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[14]//li[contains(text(),'VELEZ, LUZ')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[14]//li[contains(text(),'VELEZ, LUZ')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form[@id='frmFormDetails']/div/div[2]/div[3]/div[3]/table/tbody/tr[5]/td[2]/div/div/span/span/span/span[2]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[18]//li[contains(text(),'ABAD, HECTOR')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[18]//li[contains(text(),'ABAD, HECTOR')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btnUpdateForm</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForAlertNotPresent</td>
+	<td>id=pnlFormConfirm</td>
+	<td>Form has been updated successfully.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@id='plcContent_LoginControl_pnlLogin']/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=plcContent_LoginControl_UserName</td>
+	<td>superlion</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=plcContent_LoginControl_Password</td>
+	<td>CTAKAH777</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=plcContent_LoginControl_lnkLogin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>http://dade.acceliqc.com/PLAN/Events/ViewEvent?eventId=b68c3bc0-7103-46e3-b0a5-a6e9018958df#NoticeOfMeeting&amp;formId=2fcd4650-51b5-4453-84ab-a6e90189591b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=pnlEventTitle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>//input[@field-key='ScheduledDate']</td>
+	<td>1/5/2017</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>//input[@field-key='ScheduledTime']</td>
+	<td>8:30 AM</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>//input[@field-key='EndTime']</td>
+	<td>10:30 AM</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>//input[@field-key='Name1Key']</td>
+	<td>Sasha</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>//input[@field-key='Name2Key']</td>
+	<td>Sasha</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>//input[@field-key='PhoneNumber1Key']</td>
+	<td>(111) 444-3330</td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>//input[@field-key='PhoneNumber2Key']</td>
+	<td>(111) 444-5550</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//*[@id='frmFormDetails']/div/div[2]/div[3]/div[2]/div[2]/div[1]/div/span/div[6]//input[@class='js-checkbox-list'][@type='checkbox'][@checked='checked']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//*[@id='frmFormDetails']/div/div[2]/div[3]/div[3]/table/tbody/tr[1]/td[2]/div/div/span/span/span/span[1][contains(text(),'VELEZ, LUZ')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//form[@id='frmFormDetails']/div/div[2]/div[3]/div[3]/table/tbody/tr[5]/td[2]/div/div/span/span/span/span</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
