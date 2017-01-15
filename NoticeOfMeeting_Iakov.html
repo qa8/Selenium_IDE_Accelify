@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://change-this-to-the-site-you-are-testing/" />
+<title>NoticeOfMeeting_Iakov</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">NoticeOfMeeting_Iakov</td></tr>
+</thead><tbody>
+<tr>
+	<td>click</td>
+	<td>//input[@field-key='ScheduledDate']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='ScheduledDate']</td>
+	<td>1/4/2017</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@field-key='ScheduledTime']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='ScheduledTime']</td>
+	<td>7:00 AM</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@field-key='EndTime']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='EndTime']</td>
+	<td>9:00 AM</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@field-key='Name1Key']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='Name1Key']</td>
+	<td>Piter Pan</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@field-key='Name2Key']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='Name2Key']</td>
+	<td>Piter Pan2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='PhoneNumber1Key']</td>
+	<td>(121) 258-8996</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@field-key='PhoneNumber2Key']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@field-key='PhoneNumber2Key']</td>
+	<td>(121) 258-8997</td>
+</tr>
+<tr>
+	<td>check</td>
+	<td>//span[@class='js-form-field-value ThePurposeOfThisMeeting']/div[2]/input[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>check</td>
+	<td>//span[@class='js-form-field-value ThePurposeOfThisMeeting']/div[5]/input[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>check</td>
+	<td>//span[@class='js-form-field-value ThePurposeOfThisMeeting']/div[6]/input[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//span[@class='js-form-field-value LEARepresentativeTeamLoookup']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeAttribute</td>
+	<td>//span[@class='js-form-field-value LEARepresentativeTeamLoookup']/span@aria-owns</td>
+	<td>myId</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>Value of&nbsp;&nbsp;unselectable parameter is ${myId}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[@id='${myId}']//li[@data-offset-index=&quot;1&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeAttribute</td>
+	<td>//span[@class='js-form-field-value ParentTeamFatherLookUp']/span@aria-owns</td>
+	<td>myId</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>Value of&nbsp;&nbsp;unselectable parameter is ${myId}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[@id='${myId}']//li[@data-offset-index=&quot;1&quot;]</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
